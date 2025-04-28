@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.premier_fenetre {
+    width: 100%;
+}
+
+.entete {
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+}
+
+.separateur {
+    border: 0.5px solid;
+    height: 40px;
+    flex: 0 0 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.liens_gauche, .liens_droite {
+    display: flex;
+    gap: 16px;
+    font-size: 16px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+/*partie aprés le menu*/
+
+.intro {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.intro img {
+    width: 200px;
+    flex-shrink: 0;
+}
+
+.intro .titre_description {
+    width: 400px;
+}
+
+/*partie aprés intro*/
+
+.contenu {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: 16px auto;
+}
+
+.separateur2 {
+    border: 0.5px solid;
+    flex: 0 0 0;
+}
+
+.contenu .ingredient, .contenu .etape {
+    flex-basis: 300px;
+}
+
+.contenu ul, .contenu ol  {
+    list-style-position: inside;
+    padding-left: 1.5rem;
+}
+
+h2 {
+    margin-bottom: 8px;
+}
